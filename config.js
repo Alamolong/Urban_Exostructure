@@ -132,7 +132,7 @@ var config = {
         {
             id: '2011',
             alignment: 'center',
-            title: 'CuCUOMO\'S PRISON CLOSURE',
+            title: 'CUOMO\'S PRISON CLOSURE',
             image: 'images/cuomo_closure.jpg',
             description: '"We are locking up fewer people. But then you need fewer facilities. And the shrinkage of that system is going to be something that has to be thought through and managed," Cuomo said.',
             location: {

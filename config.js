@@ -11,7 +11,7 @@ var config = {
         {
             id: '1973',
             alignment: '',
-            title: 'ROCKEFELLER\'S DRUG LAWS',
+            title: '1973 ROCKEFELLER\'S DRUG LAWS',
             image: 'images/drugwar.jpg',
             description: 'Prisons were widely viewed as a barbaric and ineffective means of controlling deviant behavior. Then, on January 3, 1973, Nelson Rockefeller, the governor of New York, gave a State of the State address demanding that every illegal-drug dealer be punished with a mandatory prison sentence of life without parole.”',
             location: {
@@ -40,7 +40,7 @@ var config = {
         {
             id: '1984',
             alignment: 'center',
-            title: 'CUOMO\'S PRISON CONSTRUCTION',
+            title: '1984 CUOMO\'S PRISON CONSTRUCTION',
             image: 'images/cuomo_construction.jpg',
             description: '“Over the next twelve years Mario Cuomo added more prison beds in New York than all the previous governors in the state\'s history combined. Their total cost, including interest, would eventually reach about $7 billion.”',
             location: {
@@ -70,7 +70,7 @@ var config = {
         {
             id: '1994',
             alignment: 'center',
-            title: 'NYC\'S BROKEN WINDOW POLICY',
+            title: '1994 NYC\'S BROKEN WINDOW POLICY',
             image: 'images/broken_window_policy.jpg',
             description: 'The New York City Police Department implemented a “zero tolerance” policy for policing petty crimes in 1990. The 1990s was a time of significant decrease in crime in New York City, which was largely attributed to the policing approach\'s focus on maintaining community order and safety.',
             location: {
@@ -101,7 +101,7 @@ var config = {
         {
             id: '2004',
             alignment: 'center',
-            title: 'DRUG LAW REFORMS',
+            title: '2004 DRUG LAW REFORMS',
             image: 'images/drug_law_reform.jpg',
             description: 'DiFiore ties the prison downturn both to drug law reforms — in 2004, 2005 and 2009 — and a recognition in law enforcement that alternatives like drug treatment were needed.',
             location: {
@@ -132,7 +132,7 @@ var config = {
         {
             id: '2011',
             alignment: 'center',
-            title: 'CuCUOMO\'S PRISON CLOSURE',
+            title: '2011 CUOMO\'S PRISON CLOSURE',
             image: 'images/cuomo_closure.jpg',
             description: '"We are locking up fewer people. But then you need fewer facilities. And the shrinkage of that system is going to be something that has to be thought through and managed," Cuomo said.',
             location: {
@@ -163,7 +163,7 @@ var config = {
         {
             id: '2021',
             alignment: 'center',
-            title: 'HOCHUL\'s PRISON CLOSURE',
+            title: '2021 HOCHUL\'s PRISON CLOSURE',
             image: 'images/Hochul.jpg',
             description: '“I want to get creative with this, I don’t know if something can be used as a substance abuse treatment center. We don\'t need as many prisons.”',
             location: {

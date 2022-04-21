@@ -9,14 +9,15 @@ var config = {
     footer: '',
     chapters: [
         {
-            id: '1973',
-            alignment: '',
-            title: '1973 ROCKEFELLER\'S DRUG LAWS',
-            image: 'images/drugwar.jpg',
-            description: 'Prisons were widely viewed as ineffective means of controlling deviant behavior. On January 3rd, 1973, Nelson Rockefeller, governor of New York, gave a state address demanding that every illegal drug dealer be punished with a mandatory prison life sentence without parole.',
+            id: 'intro',
+            alignment: 'left',
+            title: 'The Fulton Correctional Facility',
+            image: '',
+            description: 'This is an example story to demonstrate different data layers that can be used in a mapbox story.<br><br>'
+            +"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis, augue eu vestibulum vulputate, ligula justo consectetur libero, sed vulputate lectus est et purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non pharetra leo. Phasellus eleifend ligula felis, eget posuere sapien pellentesque id. In tincidunt malesuada hendrerit. Aliquam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.",
             location: {
-                center: [22.25, -3],
-                zoom: 4.7,
+                center: [0, 0],
+                zoom: 5,
                 pitch: 0,
                 bearing: 0.00
             },
@@ -38,14 +39,14 @@ var config = {
             ]
         },
         {
-            id: '1984',
-            alignment: 'center',
-            title: '1984 CUOMO\'S PRISON CONSTRUCTION',
-            image: 'images/cuomo_construction.jpg',
-            description: 'Over the next twelve years Mario Cuomo added more prison beds in New York than all the previous governors in the state\'s history combined. Their total cost, including interest, would eventually reach about $7 billion.',
+            id: 'landuse',
+            alignment: 'right',
+            title: 'The location',
+            image: '',
+            description: 'The facility borders Crotona Park ... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis, augue eu vestibulum vulputate, ligula justo consectetur libero, sed vulputate lectus est et purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non pharetra leo. Phasellus eleifend ligula felis, eget posuere sapien pellentesque id. In tincidunt malesuada hendrerit. Aliquam erat volutpat.',
             location: {
-                center: [22.25, -14],
-                zoom: 4.7,
+                center: [0, -3],
+                zoom: 5,
                 pitch: 0,
                 bearing:0
             },
@@ -68,14 +69,14 @@ var config = {
             ]
         },
         {
-            id: '1994',
-            alignment: 'center',
-            title: '1994 NYC\'S BROKEN WINDOW POLICY',
-            image: 'images/broken_window_policy.jpg',
-            description: 'The New York City Police Department implemented a “zero tolerance” policy for surveilling petty crimes in 1990. This decade saw a significant decrease in crime rates, which was largely attributed to the focus of policing on maintaining community order and safety.',
+            id: 'food',
+            alignment: 'right',
+            title: 'Food',
+            image: '',
+            description: 'There are several chain supermarket locations in the neighborhood, including a C-Town supermarket just 2 blocks away from the facility. There are also smaller food stores in the area.',
             location: {
-                center: [22.25, -24],
-                zoom: 4.7,
+                center: [0, -14],
+                zoom: 5,
                 pitch: 0,
                 bearing: 0
             },
@@ -99,14 +100,14 @@ var config = {
             ]
         },
         {
-            id: '2004',
-            alignment: 'center',
-            title: '2004 DRUG LAW REFORMS',
-            image: 'images/drug_law_reform.jpg',
-            description: 'Judge Janet DiFiore ties the prison downturn both to drug law reforms - in 2004, 2005, and 2009 - and a recognition within law enforcement that alternatives like drug treatment were needed.',
+            id: 'youth',
+            alignment: 'right',
+            title: 'Schools and Playgrounds',
+            image: '',
+            description: 'Fulton is within walking distance to several public and charter schools, as well as playgrounds and children\'s programs.',
             location: {
-                center: [22.25, -34],
-                zoom: 4.7,
+                center: [0, -24],
+                zoom: 5,
                 pitch: 0,
                 bearing: 0
             },
@@ -130,14 +131,14 @@ var config = {
             ]
         },
         {
-            id: '2011',
-            alignment: 'center',
-            title: '2011 CUOMO\'S PRISON CLOSURE',
-            image: 'images/cuomo_closure.jpg',
-            description: '“We are locking up fewer people. But then you need fewer facilities. And the shrinkage of that system is going to be something that has to be thought through and managed,” Cuomo said.',
+            id: 'cultural',
+            alignment: 'right',
+            title: 'Cultural Institutions',
+            image: '',
+            description: 'In contrast, there are very few cultural institutions in the immediate area. The closest libraries are Morrisania library and Grand Concourse Library, both are more than a 10 minute walk away.',
             location: {
-                center: [22.25, -41],
-                zoom: 4.7,
+                center: [0, -34],
+                zoom: 5,
                 pitch: 0,
                 bearing: 0
             },
@@ -161,14 +162,14 @@ var config = {
             ]
         },
         {
-            id: '2021',
-            alignment: 'center',
-            title: '2021 HOCHUL\'s PRISON CLOSURE',
-            image: 'images/Hochul.jpg',
-            description: '"I want to get creative with this," she said. "I don\'t know if something can be used as a substance abuse treatment center. We don\'t need as many prisons. The number of people incarcerated has gone down dramatically in our state."',
+            id: 'density',
+            alignment: 'right',
+            title: 'Population Density by Census Tract',
+            image: 'images/population_density.png',
+            description: 'Fulton is situated just outside of several census tracts with high population density to the south and west.  ',
             location: {
-                center: [22.25, -51],
-                zoom: 4.7,
+                center: [0, -41],
+                zoom: 5,
                 pitch: 0,
                 bearing: 0
             },
@@ -191,6 +192,36 @@ var config = {
 
             ]
         },
-        
+        {
+            id: 'building',
+            alignment: 'right',
+            title: 'Housing in the neighborhood',
+            image: 'images/claremontVillage.png',
+            description: 'The housing in the adjacent census tract with high population density consist of several high rise apartment buildings in the Claremont Village neighborhood.',
+            location: {
+                center: [0, -51],
+                zoom: 5,
+                pitch: 0,
+                bearing: 0
+            },
+            onChapterEnter: [
+                {layer: 'satellite',opacity: .4},
+                {layer: 'greenspace', opacity: 0},
+                {layer: 'building', opacity: 1 },
+                {layer: 'averageIncome', opacity: 0},
+                {layer: 'populationDensity', opacity: 1}, 
+                {layer: 'prisonBoundaries', opacity: 1},
+                {layer: 'prisonCentroids', opacity: 1},
+                {layer: 'food', opacity: 0},
+                {layer: 'youth',opacity: 0},
+                {layer: 'cultural', opacity: 0},
+                {layer: 'publicSafety', opacity: 0}
+            ],
+            onChapterExit: [
+                {layer: 'building', opacity: 0 },
+
+              
+            ]
+        }
     ]
 };

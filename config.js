@@ -12,7 +12,7 @@ var config = {
             id: '1973',
             alignment: '',
             title: '',
-            image: './Images/prison-collage-1.png',
+            image: './images/prison-collage-1.png',
             description: '',
             location: {
                 center: [22.25, -3],
@@ -41,7 +41,7 @@ var config = {
             id: '1984',
             alignment: 'center',
             title: '',
-            image: 'images/prison-collage-2.png',
+            image: './images/prison-collage-2.png',
             description: '',
             location: {
                 center: [22.25, -14],
@@ -71,7 +71,7 @@ var config = {
             id: '1994',
             alignment: 'center',
             title: '',
-            image: './Images/prison-collage-3.png',
+            image: './images/prison-collage-3.png',
             description: '',
             location: {
                 center: [22.25, -24],
@@ -102,7 +102,7 @@ var config = {
             id: '2004',
             alignment: 'center',
             title: '',
-            image: './Images/prison-collage-4.png',
+            image: './images/prison-collage-4.png',
             description: '',
             location: {
                 center: [22.25, -34],
@@ -133,7 +133,7 @@ var config = {
             id: '2011',
             alignment: 'center',
             title: '',
-            image: './Images/prison-collage-5.png',
+            image: './images/prison-collage-5.png',
             description: '',
             location: {
                 center: [22.25, -41],
@@ -164,7 +164,7 @@ var config = {
             id: '2021',
             alignment: 'center',
             title: '',
-            image: './Images/prison-collage-6.png',
+            image: './images/prison-collage-6.png',
             description: '',
             location: {
                 center: [22.25, -51],

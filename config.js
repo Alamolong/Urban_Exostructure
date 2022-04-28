@@ -222,7 +222,7 @@ var config = {
             id: '2004 quote',
             alignment: 'left',
             title: '',
-            image: '',
+            image: 'images/2004-b.jpg',
             description: '“I will die in prison for marijuana unless I receive executive clemency,” (Pedro Moreno, 62 years and serving a life sentence for distributing weed imported from Mexico) ',
             location: {
                 center: [22.25, -34],
